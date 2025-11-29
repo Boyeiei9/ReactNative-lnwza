@@ -9,7 +9,7 @@ export default function Index() {
         <Text style={styles.linkText}>ไปหน้าที่ 2</Text>
       </Link>
 
-      <Link href="/flexbox/ex01" style={styles.link}>
+      {/* <Link href="/flexbox/ex01" style={styles.link}>
         <Text style={styles.linkText}>ex01</Text>
       </Link>
 
@@ -27,9 +27,9 @@ export default function Index() {
 
       <Link href="/flexbox/ex05" style={styles.link}>
         <Text style={styles.linkText}>ex05</Text>
-      </Link>
+      </Link> */}
 
-      <Link href="/flexbox/ex06" style={styles.link}>
+      {/* <Link href="/flexbox/ex06" style={styles.link}>
         <Text style={styles.linkText}>ex06</Text>
       </Link>
       <Link href="/flexbox/ex07" style={styles.link}>
@@ -49,7 +49,16 @@ export default function Index() {
       </Link>
       <Link href="/flexbox/ex12" style={styles.link}>
         <Text style={styles.linkText}>ex12</Text>
+      </Link> */}
+
+      <Link href="/travel" style={styles.link}>
+        <Text style={styles.linkText}>Travel</Text>
       </Link>
+
+        <Link href="/resort" style={styles.link}>
+        <Text style={styles.linkText}>resort</Text>
+      </Link>
+
     </View>
   );
 }
