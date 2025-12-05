@@ -59,6 +59,10 @@ export default function Index() {
         <Text style={styles.linkText}>resort</Text>
       </Link>
 
+      <Link href="/reviwe" style={styles.link}>
+        <Text style={styles.linkText}>reviwe</Text>
+      </Link>
+
     </View>
   );
 }
