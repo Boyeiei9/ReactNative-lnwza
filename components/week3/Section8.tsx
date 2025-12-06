@@ -1,7 +1,7 @@
 import { FontAwesome } from '@expo/vector-icons';
 import React from 'react';
 import { Button, Image, Text, View } from 'react-native';
-export default function Hotel() {
+export default function Section8() {
 
     return (         
         <View style={{ padding : 20,flexDirection : "row", justifyContent : "space-between", marginTop : 10,borderBottomWidth: 1  }}>

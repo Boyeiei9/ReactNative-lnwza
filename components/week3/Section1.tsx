@@ -1,7 +1,7 @@
 import React from 'react';
-import { Image, Text, View } from 'react-native';
+import { Image, View } from 'react-native';
 
-export default function Card() {
+export default function Section1() {
     return (
         <View style={{ padding : 20  }}>
             
