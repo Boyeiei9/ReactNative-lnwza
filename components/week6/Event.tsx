@@ -49,7 +49,7 @@ export default function Event(props: any) {
                                 </View>
                                 <View style={{ padding: 10, flex: 1 }}>
                                     <Text style={{ fontSize: 14, fontWeight: "bold", }} numberOfLines={1}>{item.title}</Text>
-                                    <Text style={{ fontSize: 12, color: "grey" }}>{item.time}</Text>
+                                    <Text style={{ fontSize: 12, color: "grey" }}>{item.datetime}</Text>
                                     <Text style={{ fontSize: 12, color: "grey" }}>{item.place}</Text>
                                 </View>
                             </View>
