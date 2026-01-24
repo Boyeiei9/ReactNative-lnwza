@@ -4,13 +4,13 @@ import { ScrollView, StyleSheet, Text, View } from "react-native";
 export default function Index() {
   return (
     <ScrollView>
-    <View style={styles.container} >
+      <View style={styles.container} >
 
-      <Link href="/page2" style={styles.link}>
-        <Text style={styles.linkText}>ไปหน้าที่ 2</Text>
-      </Link>
+        <Link href="/page2" style={styles.link}>
+          <Text style={styles.linkText}>ไปหน้าที่ 2</Text>
+        </Link>
 
-      {/* <Link href="/flexbox/ex01" style={styles.link}>
+        {/* <Link href="/flexbox/ex01" style={styles.link}>
         <Text style={styles.linkText}>ex01</Text>
       </Link>
 
@@ -30,7 +30,7 @@ export default function Index() {
         <Text style={styles.linkText}>ex05</Text>
       </Link> */}
 
-      {/* <Link href="/flexbox/ex06" style={styles.link}>
+        {/* <Link href="/flexbox/ex06" style={styles.link}>
         <Text style={styles.linkText}>ex06</Text>
       </Link>
       <Link href="/flexbox/ex07" style={styles.link}>
@@ -52,42 +52,47 @@ export default function Index() {
         <Text style={styles.linkText}>ex12</Text>
       </Link> */}
 
-      <Link href="/travel" style={styles.link}>
-        <Text style={styles.linkText}>Travel</Text>
-      </Link>
+        <Link href="/travel" style={styles.link}>
+          <Text style={styles.linkText}>Travel</Text>
+        </Link>
 
-      <Link href="/resort" style={styles.link}>
-        <Text style={styles.linkText}>resort</Text>
-      </Link>
+        <Link href="/resort" style={styles.link}>
+          <Text style={styles.linkText}>resort</Text>
+        </Link>
 
-      <Link href="/reviwe" style={styles.link}>
-        <Text style={styles.linkText}>reviwe</Text>
-      </Link>
+        <Link href="/reviwe" style={styles.link}>
+          <Text style={styles.linkText}>reviwe</Text>
+        </Link>
 
-      <Link href="/health" style={styles.link}>
-        <Text style={styles.linkText}>Health</Text>
-      </Link>
+        <Link href="/health" style={styles.link}>
+          <Text style={styles.linkText}>Health</Text>
+        </Link>
 
-      <Link href="/home" style={styles.link}>
-        <Text style={styles.linkText}>Home</Text>
-      </Link>
+        <Link href="/home" style={styles.link}>
+          <Text style={styles.linkText}>Home</Text>
+        </Link>
 
-      <Link href="/chart" style={styles.link}>
-        <Text style={styles.linkText}>chart</Text>
-      </Link>
-
-
-      <Link href="/your-health" style={styles.link}>
-        <Text style={styles.linkText}>Your Health</Text>
-      </Link>
-
-      <Link href="/todolist" style={styles.link}>
-        <Text style={styles.linkText}>Todo List</Text>
-      </Link>
+        <Link href="/chart" style={styles.link}>
+          <Text style={styles.linkText}>chart</Text>
+        </Link>
 
 
+        <Link href="/your-health" style={styles.link}>
+          <Text style={styles.linkText}>Your Health</Text>
+        </Link>
 
-    </View>
+        <Link href="/todolist" style={styles.link}>
+          <Text style={styles.linkText}>Todo List</Text>
+        </Link>
+
+        <Link href="/location" style={styles.link}>
+          <Text style={styles.linkText}>Location</Text>
+        </Link>
+
+
+
+
+      </View>
     </ScrollView>
   );
 }
