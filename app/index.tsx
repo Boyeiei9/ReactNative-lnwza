@@ -3,8 +3,7 @@ import { StyleSheet, Text, View } from "react-native";
 
 export default function Index() {
   return (
-    <View style={styles.container} >
-
+    <View style={styles.container}>
       <Link href="/page2" style={styles.link}>
         <Text style={styles.linkText}>ไปหน้าที่ 2</Text>
       </Link>
@@ -55,7 +54,7 @@ export default function Index() {
         <Text style={styles.linkText}>Travel</Text>
       </Link>
 
-        <Link href="/resort" style={styles.link}>
+      <Link href="/resort" style={styles.link}>
         <Text style={styles.linkText}>resort</Text>
       </Link>
 
@@ -63,12 +62,24 @@ export default function Index() {
         <Text style={styles.linkText}>reviwe</Text>
       </Link>
 
+      <Link href="/ant" style={styles.link}>
+        <Text style={styles.linkText}>heros</Text>
+      </Link>
+
+      <Link href="/pokemon/pikachu" style={styles.link}>
+        <Text style={styles.linkText}>pokemon</Text>
+      </Link>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: { flex: 1, justifyContent: "center", alignItems: "center" },
-  link: { margin: 10, padding: 10, backgroundColor: "#2196F3", borderRadius: 5 },
+  link: {
+    margin: 10,
+    padding: 10,
+    backgroundColor: "#2196F3",
+    borderRadius: 5,
+  },
   linkText: { color: "#fff", fontSize: 16, textAlign: "center" },
 });
