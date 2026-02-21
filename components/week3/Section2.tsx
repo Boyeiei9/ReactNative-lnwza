@@ -2,7 +2,7 @@ import { FontAwesome } from '@expo/vector-icons';
 import React from 'react';
 import { Image, Text, View } from 'react-native';
 
-export default function Card() {
+export default function Section2() {
     return (
         <View style={{ padding: 20 }}>
             <View style={{ flex: 1, marginTop : -100, marginHorizontal : 20 , padding : 20, borderWidth : 1, borderColor : '#000000ff', borderRadius : 20, backgroundColor : '#e0e0e0ff' }}>

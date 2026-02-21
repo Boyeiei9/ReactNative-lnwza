@@ -3,7 +3,7 @@ import {  View,  TextInput } from "react-native";
 import MyIcon from "./MyIcon";
 
 
-export default function Menu() {
+export default function Section5() {
   return (
     <View style={{  borderBottomWidth: 1,padding : 20 }}>
       <View style={{ flexDirection : "row", marginTop : 1  }}>

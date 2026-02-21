@@ -1,7 +1,7 @@
 import React from 'react';
 import { Image, Text, View } from 'react-native';
 
-export default function Card() {
+export default function Section7() {
     return (
         <View style={{ padding : 20,borderBottomWidth: 1  }}>
             {/* View ก้อนที่ 1  */}

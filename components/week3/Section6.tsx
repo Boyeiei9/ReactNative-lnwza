@@ -1,7 +1,7 @@
 import React from "react";
 import { Image, Text, View } from "react-native";
 
-export default function Card() {
+export default function Section6() {
   return (
     <View style={{ borderBottomWidth: 1 }}>
       <View style={{ padding:30 }}>
