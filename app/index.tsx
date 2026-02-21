@@ -96,6 +96,12 @@ export default function Index() {
           <Text style={styles.linkText}>Location</Text>
         </Link>
 
+        <Link href="/profile" style={styles.link}>
+          <Text style={styles.linkText}>profile</Text>
+        </Link>
+
+
+
 
 
 
