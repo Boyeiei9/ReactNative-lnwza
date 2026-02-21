@@ -96,6 +96,9 @@ export default function Index() {
           <Text style={styles.linkText}>Location</Text>
         </Link>
 
+
+
+
       </View>
     </ScrollView>
   );
